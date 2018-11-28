@@ -4,7 +4,6 @@ Embark on a wine journey so seamless you’ll forget that it’s just a visit.
 
 This is a dirty <b> test </b>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### What is Wine About?
 
@@ -26,4 +25,4 @@ Our winery experience with you will last the entire day that you choose. Pickups
 
 ### So which wineries do I get to visit?!
 
-Sometimes the element of surprise is the best, but Castillo di Amoroso, V. Sattui and Inglenook are among our favorites that you’ll see. 
+Sometimes the element of surprise is the best, but Castillo di Amoroso, V. Sattui and Inglenook are among our favorites that you’ll see.
