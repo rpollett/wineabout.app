@@ -1,12 +1,41 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,400,700|Asul:400,700");
+// @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,700");
+// @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
-// .container {
-//   margin-left: 4%;
+// @font-face {
+//     font-family: 'grenadier';
+//     src: url('../fonts/grenadiernf-webfont.woff2') format('woff2'),
+//          url('../fonts/grenadiernf-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
 // }
 
 // Styling basics
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Asul', sans-serif;
+}
+
+body {
+  font-family: 'Chivo', sans-serif;
+}
+
+ul.gallery {
+  position: relative;
+  height: 400px;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+  color: #fff;
+}
+
+header[class*="-dark"] {
+  background: #202020;
+}
+
+p.lead {
+  color: #fff !important;
+}
 
 .fs-12 {
   font-size: 0.75rem !important;
@@ -1575,9 +1604,6 @@ footer {
   .revert hr {
     border-color: #e5e5e5; }
 
-.text-white .lead {
-  color: rgba(255, 255, 255, 0.75); }
-
 .text-white .text-muted {
   color: rgba(255, 255, 255, 0.5) !important; }
 
@@ -2629,7 +2655,7 @@ footer {
     max-width: 100%;
     margin: 0;
     font-size: 1rem;
-    font-family: "Rubik", sans-serif;
+    font-family: "Chivo", sans-serif;
     font-weight: 400;
     vertical-align: middle; }
   .accordion-control h5 {
@@ -2826,7 +2852,7 @@ footer {
       content: "\ec7d"; }
     .accordion-group-portal .accordion-control h5 {
       font-size: 1.25rem;
-      font-family: "Rubik", sans-serif; }
+      font-family: "Chivo", sans-serif; }
   .accordion-group-portal .accordion-content > div {
     padding-bottom: 2rem; }
 
@@ -3312,7 +3338,7 @@ footer {
 
 .entry-title {
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 400; }
 
 .text-white .entry:not(:first-child) {
@@ -3352,7 +3378,7 @@ footer {
 .news-title {
   margin: 0;
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 400; }
 
 .text-white .news a {
