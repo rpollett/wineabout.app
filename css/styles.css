@@ -1,6 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,400,700|Asul:400,700");
+h1, h2, h3, h4, h5 {
+  font-family: 'Asul', sans-serif; }
+
+body {
+  font-family: 'Chivo', sans-serif; }
+
+ul.gallery {
+  position: relative;
+  height: 400px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
+header[class*="-dark"] {
+  background: rgba(32, 32, 32, 0.8); }
+
+p.lead {
+  color: #fff !important; }
+
 .fs-12 {
   font-size: 0.75rem !important;
   line-height: 1.4em; }
@@ -1665,9 +1682,6 @@ footer .nav li {
 .revert hr {
   border-color: #e5e5e5; }
 
-.text-white .lead {
-  color: rgba(255, 255, 255, 0.75); }
-
 .text-white .text-muted {
   color: rgba(255, 255, 255, 0.5) !important; }
 
@@ -2810,7 +2824,7 @@ footer .nav li {
   max-width: 100%;
   margin: 0;
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 400;
   vertical-align: middle; }
 
@@ -3040,7 +3054,7 @@ footer .nav li {
 
 .accordion-group-portal .accordion-control h5 {
   font-size: 1.25rem;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Chivo", sans-serif; }
 
 .accordion-group-portal .accordion-content > div {
   padding-bottom: 2rem; }
@@ -3581,7 +3595,7 @@ footer .nav li {
 
 .entry-title {
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 400; }
 
 .text-white .entry:not(:first-child) {
@@ -3625,7 +3639,7 @@ footer .nav li {
 .news-title {
   margin: 0;
   font-size: 1rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 400; }
 
 .text-white .news a {
