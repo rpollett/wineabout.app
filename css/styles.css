@@ -1,9 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Chivo:300,400,700|Asul:400,700");
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i|DM+Serif+Display:400,400i&display=swap');
+@font-face {
+  font-family: 'Northwell';
+  src: url(../fonts/Northwell.eot);
+  src: url(../fonts/Northwell.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Northwell.woff2) format('woff2'),
+       url(../fonts/Northwell.woff) format('woff'),
+       url(../fonts/Northwell.ttf) format('truetype'),
+       url(../fonts/Northwell.svg#Northwell) format('svg');
+}
+
+body{
+font-weight:normal;
+font-family:Northwell;
+font-size:20px;
+}
 h1, h2, h3, h4, h5 {
-  font-family: 'Asul', sans-serif; }
+  font-family: 'DM Serif Display', serif; }
+
+.display-2, .navbar-brand{
+  font-family: 'Northwell', cursive;
+}
+
+.name {
+  font-size: 2.3rem;
+}
 
 body {
-  font-family: 'Chivo', sans-serif; }
+  font-family: 'DM Sans', sans-serif; }
 
 ul.gallery {
   position: relative;
@@ -2824,7 +2847,7 @@ footer .nav li {
   max-width: 100%;
   margin: 0;
   font-size: 1rem;
-  font-family: "Chivo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   vertical-align: middle; }
 
@@ -3054,7 +3077,7 @@ footer .nav li {
 
 .accordion-group-portal .accordion-control h5 {
   font-size: 1.25rem;
-  font-family: "Chivo", sans-serif; }
+  font-family: "DM Sans", sans-serif; }
 
 .accordion-group-portal .accordion-content > div {
   padding-bottom: 2rem; }
@@ -3595,7 +3618,7 @@ footer .nav li {
 
 .entry-title {
   font-size: 1rem;
-  font-family: "Chivo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400; }
 
 .text-white .entry:not(:first-child) {
@@ -3639,7 +3662,7 @@ footer .nav li {
 .news-title {
   margin: 0;
   font-size: 1rem;
-  font-family: "Chivo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400; }
 
 .text-white .news a {
