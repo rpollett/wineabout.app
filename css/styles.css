@@ -42,8 +42,7 @@ h1, h2, h3, h4, h5 {
 
 .name {
   font-size: 2.8rem;
-  font-family: Northwell, cursive;
-  /* color: #212121 */
+  font-family: Northwell, cursive
 }
 
 .nav-link {
@@ -134,7 +133,6 @@ header {
   border-bottom: 1px solid transparent
 }
 
-
 body {
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -148,7 +146,6 @@ body {
 .container-full {
   overflow: hidden
 }
-
 
 body>footer, body>section {
   position: relative;
@@ -1973,7 +1970,7 @@ img {
 
 footer {
   padding: 0 !important;
-  color: #fff;
+  color: #fff
 }
 
 footer>[class*=container] {
@@ -2148,8 +2145,6 @@ footer .nav li {
   padding: 0 !important;
   border: 0
 }
-
-
 
 :not(pre)>code[class*=language-] {
   padding: .1em;
@@ -2360,7 +2355,6 @@ footer .nav li {
   transform: translate(-50%, 0)
 }
 
-/* smartphone, tablet, etc styles */
 @media (min-width:1200px) {
   header[class*="-dark"] .navbar-logo-light {
     display: block !important
@@ -2404,10 +2398,12 @@ footer .nav li {
   .header-dark[class*="-not-top"][class*="-pinned"] .navbar-brand, .header-light[class*="-not-top"][class*="-pinned"] .navbar-brand {
     color: #000
   }
+
   .container-fluid {
     max-width: 1370px
   }
 }
+
 @media (max-width:1199.98px) {
   .display-1 {
     font-size: 3.75rem
