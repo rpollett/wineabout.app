@@ -1721,7 +1721,7 @@ section[class*=small] {
 
 .carousel-controls .control {
   position: absolute;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   width: 45px;
   height: 45px;
   border-radius: 50%;
