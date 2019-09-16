@@ -72,6 +72,10 @@ p.lead {
   font-weight: 600;
 }
 
+.btn:hover {
+  color:#fff;
+}
+
 .btn-outline {
   background-color: transparent !important;
   color: #212121 !important;
@@ -5679,20 +5683,6 @@ footer .nav li {
 .btn-ico.btn-xl {
   width: 5.9rem;
   height: 5.9rem; }
-
-.partners .owl-stage-outer .owl-stage {
-  display: -ms-flexbox !important;
-  display: flex !important; }
-
-.partners .owl-stage-outer .owl-stage .owl-item {
-  text-align: center;
-  -ms-flex-item-align: center !important;
-  align-self: center !important; }
-
-.partners .owl-stage-outer .owl-stage .owl-item img {
-  display: inline-block;
-  width: initial;
-  max-width: 60%; }
 
 .blockquote {
   position: relative;
