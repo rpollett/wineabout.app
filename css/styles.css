@@ -2456,6 +2456,12 @@ footer .nav li {
   body [class*=container] .row:not(:last-child) {
     margin-bottom: 2.08333rem
   }
+  .owl-item.mobile {
+    width: 21.2% !important;
+  }
+  .owl-item blockquote p {
+    font-size: .8rem;
+  }
 }
 
 @media (min-width:1600px) {
