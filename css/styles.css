@@ -82,6 +82,11 @@ p.lead {
   border: solid 2px #212121;
 }
 
+.btn-outline:hover {
+  background-color: #212121 !important;
+  color:  #fff!important;
+}
+
 
 /* FORM  */
 
