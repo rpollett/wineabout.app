@@ -28,7 +28,8 @@
 
 body {
   font-weight: 400;
-  font-family: 'DM Sans', sans-serif
+  font-family: 'DM Sans', sans-serif;
+  color: #212121;
 }
 
 h1, h2, h3, h4, h5 {
@@ -54,6 +55,10 @@ h1, h2, h3, h4, h5 {
 ul.gallery {
   position: relative;
   height: 400px
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -494,7 +499,7 @@ section[class*=small] {
 
 .text-white [class*=bordered] {
   background: 0 0;
-  border-color: rgba(255, 255, 255, .2)
+  border-color: #615b56
 }
 
 .container .gallery-container .swiper-slide, .container .swiper-container .swiper-slide, .container-fluid .gallery-container .swiper-slide, .container-fluid .swiper-container .swiper-slide, .presentation-circle>figure, [class*=boxed] {
@@ -1783,7 +1788,6 @@ section[class*=small] {
 .review p {
   margin-top: 50px;
   font-size: 1.25rem;
-  font-family: "Nunito Sans", sans-serif;
   font-weight: 300
 }
 
@@ -1795,12 +1799,16 @@ section[class*=small] {
 .review-score {
   border-radius: .25rem;
   display: inline-block;
-  width: 4rem;
-  line-height: 4rem;
+  width: 3rem;
+  line-height: 3rem;
   font-size: 1.5rem;
   color: #fbfffc;
   background: #b0c8b4;
   text-align: center;
+}
+
+.tour-rating {
+
 }
 
 .list-group-item {
@@ -1972,7 +1980,7 @@ section[class*=small] {
 }
 
 code[class*=language-] {
-  font-family: "Roboto Mono", monospace;
+  font-family: monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -2033,7 +2041,7 @@ img {
   line-height: 3.625rem;
   font-family: icomoon;
   font-size: 20px;
-  background-color: #e5e5e5
+  background-color: #615b56
 }
 
 .phone:hover {
@@ -2046,7 +2054,7 @@ img {
 }
 
 .text-white .phone::before {
-  background: rgba(255, 255, 255, .2)
+  background: #615b56
 }
 
 footer {
