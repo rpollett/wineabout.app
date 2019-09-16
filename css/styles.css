@@ -680,12 +680,12 @@ section[class*=small] {
 }
 
 .nav-text .nav-link.active {
-  color: #4829b2;
-  border-color: #4829b2
+  color: #b0c8b4;
+  border-color: #b0c8b4
 }
 
 .nav-text .nav-link:hover {
-  color: #4829b2
+  color: #b0c8b4
 }
 
 .nav-vertical {
@@ -1714,12 +1714,12 @@ section[class*=small] {
 .review-score {
   border-radius: .25rem;
   display: inline-block;
-  width: 5rem;
-  line-height: 5rem;
+  width: 4rem;
+  line-height: 4rem;
   font-size: 1.5rem;
-  color: #fff;
-  background: #4829b2;
-  text-align: center
+  color: #fbfffc;
+  background: #b0c8b4;
+  text-align: center;
 }
 
 .list-group-item {
@@ -1750,7 +1750,7 @@ section[class*=small] {
 }
 
 .list-group-item a:hover {
-  color: #4829b2
+  color: #b0c8b4
 }
 
 .list-group-line .list-group-item {
@@ -1909,7 +1909,7 @@ code[class*=language-] {
 
 code[class*=language-]::-moz-selection, code[class*=language-]::selection {
   color: #fff;
-  background: #4829b2
+  background: #b0c8b4
 }
 
 .logo-sm {
@@ -1956,11 +1956,11 @@ img {
 }
 
 .phone:hover {
-  border-color: #4829b2 !important
+  border-color: #b0c8b4 !important
 }
 
 .phone:hover::before {
-  background-color: #4829b2 !important;
+  background-color: #b0c8b4 !important;
   color: #fff
 }
 
@@ -2506,7 +2506,7 @@ footer .nav li {
 
   .navbar-nav .nav-item .btn {
     display: block;
-    background-color: #4829b2;
+    background-color: #b0c8b4;
     color: #fff
   }
 }
