@@ -1765,6 +1765,9 @@ section[class*=small] {
   .testimonials h2 {
     font-size: 1.5rem;
   }
+  div.control.prev, div.control.next {
+    display: none !important;
+  }
 }
 
 
