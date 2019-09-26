@@ -1820,7 +1820,7 @@ section[class*=small] {
 }
 
 .list-group-item [class*=icon]:first-child {
-  padding-right: 1rem
+  padding: 1rem
 }
 
 .list-group-item [class*=icon]:last-child {
