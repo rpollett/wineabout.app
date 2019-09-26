@@ -1773,6 +1773,9 @@ section[class*=small] {
   div.control.prev, div.control.next {
     display: none !important;
   }
+  .blockquote {
+    padding: 0;
+  }
 }
 
 
