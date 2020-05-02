@@ -21,10 +21,92 @@
 }
 
 @font-face {
+    font-family: 'Bakerie Black';
+    src: url('../fonts/bakeriesmooth-black-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Bold';
+    src: url('../fonts/bakeriesmooth-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Heavy';
+    src: url('../fonts/bakeriesmooth-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Light';
+    src: url('../fonts/bakeriesmooth-light-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Medium';
+    src: url('../fonts/bakeriesmooth-medium-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Regular';
+    src: url('../fonts/bakeriesmooth-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Bakerie Thin';
+    src: url('../fonts/bakeriesmooth-thin-webfont.woff2') format('woff2'),
+         url('../fonts/bakeriesmooth-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* OG font */
+/* @font-face {
   font-family: Northwell;
   src: url(../fonts/Northwell.eot);
   src: url(../fonts/Northwell.eot?#iefix) format('embedded-opentype'), url(../fonts/Northwell.woff2) format('woff2'), url(../fonts/Northwell.woff) format('woff'), url(../fonts/Northwell.ttf) format('truetype'), url(../fonts/Northwell.svg#Northwell) format('svg')
-}
+} */
 
 body {
   font-weight: 400;
@@ -37,13 +119,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .display-2 {
-  font-family: Northwell, cursive;
-  font-size: 6rem
+  font-family: Bakerie Regular, cursive;
+  font-size: 6rem;
+  letter-spacing: -2px;
 }
 
 .name {
   font-size: 2.8rem;
-  font-family: Northwell, cursive
+  font-family: Bakerie Regular, cursive
 }
 
 .nav-link {
